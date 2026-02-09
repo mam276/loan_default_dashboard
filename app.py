@@ -49,20 +49,19 @@ st.markdown('<h1 class="main-header">📊 Loan Default Analysis Dashboard</h1>',
 @st.cache_data
 def load_data():
     try:
-        # Load the cleaned data
-        df = pd.read_csv('data/loan_data_cleaned.csv')
-        st.success(f"✅ Loaded {len(df):,} records from loan_data_cleaned.csv")
+        df = pd.read_parquet('data/loan_data_cleaned.parquet')
+        st.success(f"✅ Loaded {len(df):,} records from Parquet file")
         return df
     except Exception as e:
         st.error(f"❌ Error loading data: {e}")
-        st.info("Please make sure your data files are in the 'data' folder")
+        st.info("Please make sure your Parquet file is in the 'data' folder")
         return None
 
 # Load summary statistics
 @st.cache_data
 def load_summary():
     try:
-        summary = pd.read_csv('data/loan_summary_statistics.csv')
+        summary = pd.read_parquet('data/loan_summary_statistics.parquet')
         return summary
     except:
         return None
@@ -360,4 +359,5 @@ st.markdown("""
     <p>📊 Loan Default Analysis Dashboard | Built with Streamlit</p>
     <p>Using output files from initial analysis project</p>
 </div>
+
 """, unsafe_allow_html=True)
