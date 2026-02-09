@@ -1,0 +1,24 @@
+================================================================================
+LOAN DEFAULT ANALYSIS REPORT
+================================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Total Loans Analyzed: 44,988
+Overall Default Rate: 22.2%
+Average Interest Rate: 11.01%
+Average Credit Score: 632.6
+Financial Impact (ROI): -13.89%
+
+KEY RISK FACTORS
+----------------------------------------
+1. DEBTCONSOLIDATION: 30.3% default rate
+2. MEDICAL: 27.8% default rate
+3. HOMEIMPROVEMENT: 26.3% default rate
+
+RECOMMENDATIONS
+----------------------------------------
+1. Implement stricter underwriting for high-risk loan purposes
+2. Adopt risk-based pricing model
+3. Enhance monitoring of loans with high income burden
+4. Focus marketing on low-risk segments
