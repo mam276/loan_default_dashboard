@@ -67,7 +67,7 @@ def anyra_header():
                     📊 Loan Default Analysis Dashboard
                 </h1>
                 <p style="font-size: 18px; color:#1E3A8A; margin-top:-10px;">
-                    <strong>Author:</strong> ASHRAF • <strong>Powered by ANYRA</strong>
+                    <strong>Author:</strong> ASHRAF • <strong>Powered by HOPE</strong>
                 </p>
             </div>
         """, unsafe_allow_html=True)
@@ -354,6 +354,7 @@ st.markdown("---")
 st.markdown("""
 <div style='text-align: center'>
     <p>📊 Loan Default Analysis Dashboard | Built with Streamlit</p>
-    <p>Powered by ANYRA • Created by ASHRAF</p>
+    <p>Powered by HOPE • Created by ASHRAF</p>
 </div>
 """, unsafe_allow_html=True)
+
